@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkillsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/black"
+
+        android:ems="10"
+        android:inputType="text"
+        android:text="Portfolio"
+        android:padding="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/material_dynamic_tertiary100"
+        android:textSize="60dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="SKILLS"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/grey"
+            android:textAlignment="center"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOOLS AND TECHNOLOGIES"
+            android:textColor="@color/grey"
+            android:textAlignment="center"
+
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/textViewhtml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_weight="1"
+            android:text="HTML"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="100dp"
+
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/imageViewhtml"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/htmlicon" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewcss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_weight="1"
+            android:text="CSS"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="100dp"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/imageViewcss"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cssicon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewjavascript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_weight="1"
+            android:text="JAVASCRIPT"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="100dp"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/imageViewjavascript"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/javascripticon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewreactjs"
+            android:layout_width="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="REACT JS"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="100dp"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/imageViewreactjs"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/reactjsicon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewjava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_weight="1"
+            android:text="JAVA"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="100dp"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/imageViewjava"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/javaicon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewmangodb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_weight="1"
+            android:text="MANGO DB"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="100dp"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/imageViewmangodb"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/mangodbicon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewmysql"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_weight="1"
+            android:text="HTML"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="100dp"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/imageViewmysql"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/mysqlicon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewkotlin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="KOTLIN"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/grey"
+            android:paddingLeft="100dp"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/imageViewkotlin"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/kotlinicon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewgithub"
+            android:layout_width="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GITHUB"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="100dp"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/imageViewgithub"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/githubicon" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

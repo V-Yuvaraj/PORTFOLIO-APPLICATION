@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProjectActivity"
+    android:id="@+id/main"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/black"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="3dp"
+            android:text="Portfolio"
+            android:textAlignment="center"
+            android:textColor="@color/material_dynamic_tertiary100"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="PROJECTS"
+            android:textColor="@color/grey"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/textViewproject1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="1.portfolio"
+            android:textColor="@color/grey"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/portfolioimg" />
+
+        <TextView
+            android:id="@+id/textViewhtml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:text="HTML ,CSS,JAVASCRIPT"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/defaultbutton"
+                android:backgroundTint="@color/violet"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/github24"
+                android:paddingHorizontal="10dp"
+                android:layout_marginLeft="130dp"
+
+                android:layout_weight="1"
+                android:text="github link" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewproject2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="2.Atm interface"
+            android:textColor="@color/grey"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+
+        <ImageView
+            android:id="@+id/imageViewproject2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingBottom="30dp"
+
+            app:srcCompat="@drawable/atm" />
+        <TextView
+            android:id="@+id/textViewlang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_marginTop="10dp"
+            android:text="HTML ,CSS,JAVASCRIPT"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="130dp"
+                android:background="@drawable/defaultbutton"
+                android:backgroundTint="@color/violet"
+                android:textColor="@color/white"
+                android:paddingHorizontal="10dp"
+
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/github24"
+                android:text="github link" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewproject3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="3.Atm interface (java swing)"
+            android:textColor="@color/grey"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+
+        <ImageView
+            android:id="@+id/imageViewproject3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingBottom="30dp"
+
+            app:srcCompat="@drawable/atmjavaswing" />
+        <TextView
+            android:id="@+id/textViewlang3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_marginTop="10dp"
+            android:text="java swing and awt"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/github24"
+                android:background="@drawable/defaultbutton"
+                android:backgroundTint="@color/violet"
+                android:textColor="@color/white"
+                android:layout_marginLeft="130dp"
+                android:paddingHorizontal="10dp"
+                android:layout_weight="1"
+                android:text="github link" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewproject5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="4.Bus seat reservation"
+            android:textColor="@color/grey"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+
+        <ImageView
+            android:id="@+id/imageViewproject4"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingBottom="30dp"
+
+            app:srcCompat="@drawable/seatreservation" />
+
+        <TextView
+            android:id="@+id/textViewlang5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="java(JDBC) and MySql"
+            android:textColor="@color/grey"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/github24"
+                android:background="@drawable/defaultbutton"
+                android:backgroundTint="@color/violet"
+                android:textColor="@color/white"
+                android:paddingHorizontal="10dp"
+                android:layout_marginLeft="130dp"
+                android:layout_weight="1"
+                android:text="github link" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textViewproject7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="5.Portfolio Application"
+            android:textColor="@color/grey"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageViewproject7"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingBottom="30dp"
+            app:srcCompat="@drawable/portfolioapp" />
+
+        <TextView
+            android:id="@+id/textViewlang7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kotlin and Java"
+            android:textColor="@color/grey"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/github24"
+            android:background="@drawable/defaultbutton"
+            android:backgroundTint="@color/violet"
+            android:textColor="@color/white"
+            android:layout_marginLeft="130dp"
+            android:paddingHorizontal="10dp"
+            android:layout_weight="1"
+            android:text="github link" />
+
+
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:text=" Made with love by yuvaraj"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="6dp"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</ScrollView>
