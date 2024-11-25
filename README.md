@@ -34,10 +34,9 @@ This is a Portfolio App built using Kotlin in Android Studio. The app showcases 
 
 1.Clone the Repository:
 
-### git clone https://github.com/your-username/portfolio-app.git
+### ` git clone https://github.com/your-username/portfolio-app.git `
 
-### cd portfolio-app
-
+### ` cd portfolio-app `
 
 
 
