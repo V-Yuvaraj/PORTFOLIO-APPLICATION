@@ -1,8 +1,8 @@
 
-Portfolio App
-This is a Portfolio App built using Kotlin in Android Studio. The app showcases your personal information, skills, projects, and contact details in a clean and modern design.
+#Portfolio App
+This is a Portfolio App built using Kotlin in Android Studio. The app showcases  personal information, skills, projects, and contact details in a clean and modern design.
 
-Features
+##Features
 
 
 Personal Information: Add your name, bio, and profile photo.
