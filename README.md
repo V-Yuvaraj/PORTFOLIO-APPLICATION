@@ -55,9 +55,21 @@ cd portfolio-app `
 
 
 
+
 4.Run the App:
 
 -> Connect an Android device or start an emulator.
 
 -> Click the Run button or use Shift + F10.
- 
+
+
+ ## App installation
+
+- click the below link
+
+  ``` https://drive.google.com/drive/folders/1gRRl32c9yXMq5Ep77rgZRS1Dh0EloJS6?usp=sharing ```
+
+- download the apk file from my drive
+
+- install the apk file and use the application
+
